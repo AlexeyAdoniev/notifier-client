@@ -1,7 +1,7 @@
 import { store } from "./store/index";
 import { saveCredentials } from "./actions";
 
-const _base = "http://localhost:3100";
+const _base = "https://token-notifier-staging.herokuapp.com";
 
 export const tokenInfoApi = "https://api.pancakeswap.info/api/v2/tokens/";
 
