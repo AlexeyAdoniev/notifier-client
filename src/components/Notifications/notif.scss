@@ -1,0 +1,110 @@
+.notifTable {
+  .row {
+    padding: 0;
+    margin-bottom: -20px;
+  }
+
+  .tableScroll {
+    margin: auto auto auto 0;
+  }
+  .tableWrapper {
+    //height: 70vh;
+
+    td {
+      cursor: pointer;
+
+      ul {
+        margin: 0;
+      }
+    }
+
+    .notificationsTitle span,
+    .notificationsToken span,
+    .notificationsMethods span,
+    .notificationsMin span,
+    .notificationsMax span,
+    .notificationsEmails span {
+      display: inline-block;
+      overflow: hidden;
+      min-width: 150px;
+      text-align: center;
+    }
+
+    .contactDetails span {
+      max-width: 250px;
+    }
+  }
+
+  .notificationsWrapper {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    padding: 20px;
+    background-color: rgb(172, 224, 172);
+    border: 1px solid rgb(74, 109, 74);
+
+    .ant-collapse {
+      margin-top: 10px;
+    }
+
+    .propsCol {
+      margin-right: 15px;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .notificationsWrapper {
+      padding: 5px;
+      top: 14%;
+      right: 5%;
+
+      .row {
+        margin: 10px 0;
+      }
+    }
+
+    .ant-collapse {
+      font-size: 12px;
+    }
+  }
+}
+
+.ant-checkbox-wrapper {
+  margin: 15px 0;
+}
+
+.notifForm {
+  margin-top: 20px;
+  //width: 40%;
+
+  .tokensList .floating_btn {
+    left: -25px;
+    right: initial;
+  }
+
+  .row {
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+  }
+
+  .tgInfo {
+    margin-right: 10px;
+  }
+
+  .ant-input {
+    width: 70%;
+  }
+
+  .tokensWrapper {
+    h3 {
+      display: none;
+    }
+
+    .tokensList {
+      width: 100px;
+      margin: 0;
+      margin-right: 26px;
+    }
+  }
+}

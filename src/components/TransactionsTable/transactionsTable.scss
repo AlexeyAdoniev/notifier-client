@@ -1,0 +1,35 @@
+.transactionsTable {
+  .tableWrapper {
+    //max-height: 70vh;
+    //overflow: auto;
+
+    .tableScroll {
+      max-height: 70vh;
+      overflow: auto;
+    }
+
+    .tableHash span,
+    .tableTo span,
+    .tableFrom span,
+    .tableMethod span {
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .tableMethod span {
+      max-width: 160px;
+      white-space: nowrap;
+    }
+
+    .tableHash span,
+    .tableFrom span,
+    .tableTo span {
+      max-width: 170px;
+    }
+
+    .tableAmount {
+      text-align: right;
+      padding-right: 30px;
+    }
+  }
+}

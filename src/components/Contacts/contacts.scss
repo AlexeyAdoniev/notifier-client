@@ -1,0 +1,60 @@
+.Contacts {
+  .withError {
+    border: 1px solid rgb(224, 123, 123);
+  }
+
+  .withError::placeholder {
+    color: rgb(224, 123, 123);
+  }
+
+  .col {
+    width: 70%;
+    height: 60%;
+
+    .contactAddressInput,
+    .contactNameInput {
+      width: 350px;
+    }
+
+    .contactsHeader {
+      display: flex;
+      margin-bottom: 12px;
+
+      span {
+        width: 50%;
+        padding-left: 15px;
+        font-weight: bold;
+      }
+    }
+
+    .contactSearch {
+      width: 250px;
+      margin-bottom: 15px;
+    }
+
+    .listWrapper {
+      overflow: auto;
+      height: 65%;
+      border: 1px solid rgb(243, 240, 240);
+      .contactsList {
+        border: 0;
+
+        li {
+          cursor: pointer;
+
+          .fas:hover {
+            color: rgb(224, 123, 123);
+          }
+
+          &:hover {
+            background-color: rgb(238, 234, 234);
+          }
+        }
+
+        .contactName {
+          width: 20%;
+        }
+      }
+    }
+  }
+}

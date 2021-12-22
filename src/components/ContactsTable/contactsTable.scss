@@ -1,0 +1,35 @@
+.contactsTable {
+  .row {
+    padding: 0;
+    margin-bottom: -20px;
+  }
+
+  .tableScroll {
+    margin: auto auto auto 0;
+  }
+  .tableWrapper {
+    //height: 70vh;
+
+    td {
+      cursor: pointer;
+
+      ul {
+        margin: 0;
+      }
+    }
+
+    .contactAlias span,
+    .contactEmail span,
+    .contactWallets span,
+    .contactDetails span {
+      display: inline-block;
+      overflow: hidden;
+      min-width: 150px;
+      text-align: center;
+    }
+
+    .contactDetails span {
+      max-width: 250px;
+    }
+  }
+}

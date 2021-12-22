@@ -1,0 +1,18 @@
+.Navigation {
+  .navWrapper {
+    height: 100%;
+    position: relative;
+
+    ul {
+      box-shadow: 12px 18px 25px rgba(74, 83, 92, 0.3);
+      padding: 20px 0;
+      height: inherit;
+    }
+
+    .collapseBtn {
+      position: absolute;
+      bottom: 0;
+      left: 5px;
+    }
+  }
+}
